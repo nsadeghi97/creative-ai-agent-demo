@@ -1,0 +1,16 @@
+{ 
+  "name": "Creative AI Agent Example",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "bfl-demo",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookDescription": "Send a POST request with { \"prompt\": \"...\" }"
+    }
+  ]
+}
